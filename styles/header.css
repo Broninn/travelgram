@@ -45,3 +45,21 @@ header #profile {
   align-items: center;
   gap: 8px;
 }
+
+@media (max-width: 950px) {
+  header .container {
+    display: flex;
+    flex-direction: column;
+  }
+  #info {
+    display: flex;
+    flex-direction: row;
+    width: 100%; 
+    justify-content: center;
+    margin-top: 16px;
+  }
+  #profile img {
+    width: 150px;
+    height: 150px;
+  }
+}
