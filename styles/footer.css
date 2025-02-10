@@ -1,10 +1,18 @@
 footer {
-  display: flex;
-  padding-block: 24px;
-  gap: 24px;
-  font: 14px/150% var(--font-family);
+  display: grid;
+  padding-block: 1rem;
+  gap: 1.5rem;
+  font: 0.875rem/150% var(--font-family);
+  justify-content: center;
+
+  &.container {
+    text-align: center;
+  }
 }
 
-footer span:nth-child(1) {
-  margin-right: auto;
+.links {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  justify-content: center;
+  gap: 1rem;
 }
